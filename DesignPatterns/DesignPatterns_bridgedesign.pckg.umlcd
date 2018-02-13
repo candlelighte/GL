@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ZZwwgOZLEeeEmYloFpnHcA">
+  <modelElement href="DesignPatterns.uml#_ZPO7gOZLEeeEmYloFpnHcA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aaNg4OZLEeeEmYloFpnHcA" sourceAnchor="0.0,28.0" targetAnchor="74.0,76.0" dashed="true" superClass="_aaMSwOZLEeeEmYloFpnHcA" subClass="_aaOvAOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZUOJMOZLEeeEmYloFpnHcA"/>
+    <bendpoints xmi:id="_auP3MOZLEeeEmYloFpnHcA" sourceX="-270" targetX="-313" targetY="287"/>
+    <bendpoints xmi:id="_auP3MeZLEeeEmYloFpnHcA" sourceX="-270" sourceY="-260" targetX="-313" targetY="27"/>
+    <bendpoints xmi:id="_auQeQOZLEeeEmYloFpnHcA" sourceX="43" sourceY="-260" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aaTAcOZLEeeEmYloFpnHcA" sourceAnchor="75.0,0.0" targetAnchor="74.0,76.0" dashed="true" superClass="_aaMSwOZLEeeEmYloFpnHcA" subClass="_aaTngOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZUP-YeZLEeeEmYloFpnHcA"/>
+    <bendpoints xmi:id="_auRFUeZLEeeEmYloFpnHcA" sourceY="-28" targetX="-223" targetY="27"/>
+    <bendpoints xmi:id="_auRsYOZLEeeEmYloFpnHcA" sourceX="223" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aaVcsOZLEeeEmYloFpnHcA" sourceAnchor="113.0,0.0" targetAnchor="105.0,76.0" target="_aaMSwOZLEeeEmYloFpnHcA" source="_aaX48eZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZVKkYeZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aadYgOZLEeeEmYloFpnHcA" position="170.0,170.0"/>
+    <stereotypes xmi:id="_aaWq0OZLEeeEmYloFpnHcA" name="Reference">
+      <modelElement href="DesignPatterns.uml#_ZVLygOZLEeeEmYloFpnHcA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aaWDweZLEeeEmYloFpnHcA" text="">
+      <visualProperties xmi:id="_auS6geZLEeeEmYloFpnHcA" position="-43.5,-18.80000000000001"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aaWDwuZLEeeEmYloFpnHcA" aggregationKind="NONE" name="">
+      <modelElement href="DesignPatterns.uml#_ZVKkYuZLEeeEmYloFpnHcA"/>
+      <visualProperties xmi:id="_auS6gOZLEeeEmYloFpnHcA" position="-17.5,-50.0"/>
+      <visibility xmi:id="_aaXR4eZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aaXR4OZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aaWDw-ZLEeeEmYloFpnHcA" aggregationKind="NONE" name="color" navigable="true">
+      <modelElement href="DesignPatterns.uml#_ZU0mIOZLEeeEmYloFpnHcA"/>
+      <visualProperties xmi:id="_auThkOZLEeeEmYloFpnHcA" position="2.5,1.0"/>
+      <visibility xmi:id="_aaXR4-ZLEeeEmYloFpnHcA" label="#"/>
+      <cardinality xmi:id="_aaXR4uZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aaWDwOZLEeeEmYloFpnHcA" sourceAnchor="0.0,38.0" targetAnchor="226.0,38.0" superClass="_aaX48eZLEeeEmYloFpnHcA" subClass="_aaRLQOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZUP-YOZLEeeEmYloFpnHcA"/>
+    <bendpoints xmi:id="_auQeQeZLEeeEmYloFpnHcA" sourceX="-30" targetX="39" targetY="101"/>
+    <bendpoints xmi:id="_auRFUOZLEeeEmYloFpnHcA" sourceX="-30" sourceY="-101" targetX="39"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aaa8QOZLEeeEmYloFpnHcA" sourceAnchor="0.0,38.0" targetAnchor="226.0,38.0" superClass="_aaX48eZLEeeEmYloFpnHcA" subClass="_aacKYOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZUTBsOZLEeeEmYloFpnHcA"/>
+    <bendpoints xmi:id="_auSTcOZLEeeEmYloFpnHcA" sourceX="-42" targetX="39" targetY="253"/>
+    <bendpoints xmi:id="_auSTceZLEeeEmYloFpnHcA" sourceX="-42" sourceY="-253" targetX="39"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_aaMSwOZLEeeEmYloFpnHcA" name="Color" associationsIn="_aaVcsOZLEeeEmYloFpnHcA" subclassedBy="_aaNg4OZLEeeEmYloFpnHcA _aaTAcOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZR-GcOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aaMSweZLEeeEmYloFpnHcA" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aaMSwuZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_aaMSw-ZLEeeEmYloFpnHcA" name="applyColor">
+      <modelElement href="DesignPatterns.uml#_ZR-tgOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_aaMSxOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aaMSxeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aaOvAOZLEeeEmYloFpnHcA" name="GreenColor" generalizations="_aaNg4OZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZR-tgeZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aaOvAeZLEeeEmYloFpnHcA" position="81.0,385.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aaOvAuZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_aaOvA-ZLEeeEmYloFpnHcA" name="applyColor">
+      <modelElement href="DesignPatterns.uml#_ZR_UkOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_aaOvBOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aaOvBeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aaRLQOZLEeeEmYloFpnHcA" name="Pentagon" generalizations="_aaWDwOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZSAisOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aaRLQeZLEeeEmYloFpnHcA" position="337.0,346.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aaRLQuZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_aaRLQ-ZLEeeEmYloFpnHcA" name="applyColor">
+      <modelElement href="DesignPatterns.uml#_ZSBw0OZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aaRLROZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZSCX4OZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aaRLReZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZSCX4eZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aaRLRuZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aaRLR-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aaRLSOZLEeeEmYloFpnHcA" name="Pentagon">
+      <modelElement href="DesignPatterns.uml#_ZUOwQOZLEeeEmYloFpnHcA"/>
+      <keywords xmi:id="_aaRLSeZLEeeEmYloFpnHcA" keyword="create"/>
+      <visibility xmi:id="_aaRLSuZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aaRLS-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aaRLTOZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUPXUuZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aaRLTeZLEeeEmYloFpnHcA" name="Pentagon">
+          <modelElement href="DesignPatterns.uml#_ZSAisOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aaRLTuZLEeeEmYloFpnHcA" name="c">
+        <modelElement href="DesignPatterns.uml#_ZUOwQeZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_aaRLT-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_aaRLUOZLEeeEmYloFpnHcA" name="Color">
+          <modelElement href="DesignPatterns.uml#_ZR-GcOZLEeeEmYloFpnHcA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aaTngOZLEeeEmYloFpnHcA" name="RedColor" generalizations="_aaTAcOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZSENEOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aaTngeZLEeeEmYloFpnHcA" position="-174.0,181.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aaTnguZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_aaTng-ZLEeeEmYloFpnHcA" name="applyColor">
+      <modelElement href="DesignPatterns.uml#_ZSE0IOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_aaTnhOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aaTnheZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aaX48eZLEeeEmYloFpnHcA" name="Shape" abstractClass="true" associationsOut="_aaVcsOZLEeeEmYloFpnHcA" subclassedBy="_aaWDwOZLEeeEmYloFpnHcA _aaa8QOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZSGCQOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aaX48uZLEeeEmYloFpnHcA" position="42.0,245.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aaX48-ZLEeeEmYloFpnHcA" label="+"/>
+    <attributes xmi:id="_aaX49OZLEeeEmYloFpnHcA" name="color">
+      <modelElement href="DesignPatterns.uml#_ZU0mIOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aaX49eZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZU1NMOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aaX49uZLEeeEmYloFpnHcA" label="#"/>
+      <cardinality xmi:id="_aaX49-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_aaX4-OZLEeeEmYloFpnHcA" name="Color">
+        <modelElement href="DesignPatterns.uml#_ZR-GcOZLEeeEmYloFpnHcA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aaX4-eZLEeeEmYloFpnHcA" abstractOperation="true" name="applyColor">
+      <modelElement href="DesignPatterns.uml#_ZSHQYOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aaX4-uZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZSH3cOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aaX4--ZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aaX4_OZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aaYgAOZLEeeEmYloFpnHcA" name="Shape">
+      <modelElement href="DesignPatterns.uml#_ZURMgOZLEeeEmYloFpnHcA"/>
+      <keywords xmi:id="_aaYgAeZLEeeEmYloFpnHcA" keyword="create"/>
+      <visibility xmi:id="_aaYgAuZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aaYgA-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aaYgBOZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZURMhOZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aaYgBeZLEeeEmYloFpnHcA" name="Shape">
+          <modelElement href="DesignPatterns.uml#_ZSGCQOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aaYgBuZLEeeEmYloFpnHcA" name="c">
+        <modelElement href="DesignPatterns.uml#_ZURMgeZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_aaYgB-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_aaYgCOZLEeeEmYloFpnHcA" name="Color">
+          <modelElement href="DesignPatterns.uml#_ZR-GcOZLEeeEmYloFpnHcA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aacKYOZLEeeEmYloFpnHcA" name="Triangle" generalizations="_aaa8QOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZSJFkOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aacKYeZLEeeEmYloFpnHcA" position="349.0,498.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aacKYuZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_aacKY-ZLEeeEmYloFpnHcA" name="applyColor">
+      <modelElement href="DesignPatterns.uml#_ZSKTsOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aacKZOZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZSK6wOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aacKZeZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZSLh0OZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aacKZuZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aacKZ-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aacKaOZLEeeEmYloFpnHcA" name="Triangle">
+      <modelElement href="DesignPatterns.uml#_ZUSaoOZLEeeEmYloFpnHcA"/>
+      <keywords xmi:id="_aacKaeZLEeeEmYloFpnHcA" keyword="create"/>
+      <visibility xmi:id="_aacKauZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aacKa-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aacKbOZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUSapOZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aacKbeZLEeeEmYloFpnHcA" name="Triangle">
+          <modelElement href="DesignPatterns.uml#_ZSJFkOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aacKbuZLEeeEmYloFpnHcA" name="c">
+        <modelElement href="DesignPatterns.uml#_ZUSaoeZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_aacKb-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_aacKcOZLEeeEmYloFpnHcA" name="Color">
+          <modelElement href="DesignPatterns.uml#_ZR-GcOZLEeeEmYloFpnHcA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

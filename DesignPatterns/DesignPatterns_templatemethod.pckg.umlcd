@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ZZ8WsOZLEeeEmYloFpnHcA">
+  <modelElement href="DesignPatterns.uml#_ZP-iYOZLEeeEmYloFpnHcA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bPHIkOZLEeeEmYloFpnHcA" sourceAnchor="261.0,38.0" targetAnchor="0.0,69.0" superClass="_bPIWsOZLEeeEmYloFpnHcA" subClass="_bPDeMOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZUen4OZLEeeEmYloFpnHcA"/>
+    <bendpoints xmi:id="_EucCYPFLEeeajKuwjA0HGg" sourceX="30" targetX="-98" targetY="95"/>
+    <bendpoints xmi:id="_EucCYfFLEeeajKuwjA0HGg" sourceX="30" sourceY="-95" targetX="-98"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bPLaAOZLEeeEmYloFpnHcA" sourceAnchor="261.0,38.0" targetAnchor="0.0,69.0" superClass="_bPIWsOZLEeeEmYloFpnHcA" subClass="_bPMBEOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZUfO8OZLEeeEmYloFpnHcA"/>
+    <bendpoints xmi:id="_EucpcPFLEeeajKuwjA0HGg" sourceX="30" targetX="-98" targetY="226"/>
+    <bendpoints xmi:id="_EucpcfFLEeeajKuwjA0HGg" sourceX="30" sourceY="-226" targetX="-98"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bPDeMOZLEeeEmYloFpnHcA" name="GlassHouse" generalizations="_bPHIkOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZSecwOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_bPDeMeZLEeeEmYloFpnHcA" position="50.0,50.0" size="261.0,77.0"/>
+    <visibility xmi:id="_bPDeMuZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_bPEFQOZLEeeEmYloFpnHcA" name="buildWalls">
+      <modelElement href="DesignPatterns.uml#_ZSfq4OZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_bPEFQeZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZSfq4eZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bPEFQuZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZSgR8OZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_bPEFQ-ZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_bPEFROZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bPEFReZLEeeEmYloFpnHcA" name="buildPillars">
+      <modelElement href="DesignPatterns.uml#_ZSg5AeZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_bPEFRuZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZShgEOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bPEFR-ZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZSiHIOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_bPEFSOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_bPEFSeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bPMBEOZLEeeEmYloFpnHcA" name="WoodenHouse" generalizations="_bPLaAOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZSlxgOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_bPMBEeZLEeeEmYloFpnHcA" position="50.0,181.0" size="261.0,77.0"/>
+    <visibility xmi:id="_bPMBEuZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_bPMBE-ZLEeeEmYloFpnHcA" name="buildWalls">
+      <modelElement href="DesignPatterns.uml#_ZSmYkOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_bPMBFOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_bPMBFeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bPMBFuZLEeeEmYloFpnHcA" name="buildPillars">
+      <modelElement href="DesignPatterns.uml#_ZSm_oOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_bPMBF-ZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZSm_oeZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bPMBGOZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZSnmsOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_bPMBGeZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_bPMBGuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bPIWsOZLEeeEmYloFpnHcA" name="HouseTemplate" abstractClass="true" subclassedBy="_bPHIkOZLEeeEmYloFpnHcA _bPLaAOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZSiuMOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_bPIWseZLEeeEmYloFpnHcA" position="439.0,-76.0" size="271.0,137.0"/>
+    <visibility xmi:id="_bPIWsuZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_bPIWs-ZLEeeEmYloFpnHcA" name="buildHouse">
+      <modelElement href="DesignPatterns.uml#_ZSj8UOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_bPIWtOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_bPIWteZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bPIWtuZLEeeEmYloFpnHcA" name="buildWindows">
+      <modelElement href="DesignPatterns.uml#_ZSj8UeZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_bPIWt-ZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_bPIWuOZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bPIWueZLEeeEmYloFpnHcA" abstractOperation="true" name="buildWalls">
+      <modelElement href="DesignPatterns.uml#_ZSkjYOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_bPIWuuZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_bPIWu-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bPIWvOZLEeeEmYloFpnHcA" abstractOperation="true" name="buildPillars">
+      <modelElement href="DesignPatterns.uml#_ZSkjYeZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_bPIWveZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_bPIWvuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bPIWv-ZLEeeEmYloFpnHcA" name="buildFoundation">
+      <modelElement href="DesignPatterns.uml#_ZSlKcOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_bPIWwOZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_bPIWweZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

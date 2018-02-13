@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ZZkjQOZLEeeEmYloFpnHcA">
+  <modelElement href="DesignPatterns.uml#_ZOCosOZLEeeEmYloFpnHcA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZzOZYOZLEeeEmYloFpnHcA" sourceAnchor="0.0,72.0" targetAnchor="133.0,76.0" dashed="true" superClass="_ZzI50OZLEeeEmYloFpnHcA" subClass="_ZzRcsOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZUDKEeZLEeeEmYloFpnHcA"/>
+    <bendpoints xmi:id="_Z_J8kOZLEeeEmYloFpnHcA" sourceX="-204" targetY="127"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZzamoOZLEeeEmYloFpnHcA" sourceAnchor="0.0,72.0" targetAnchor="103.0,76.0" dashed="true" superClass="_ZzI50OZLEeeEmYloFpnHcA" subClass="_ZzeRAOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZUHbgOZLEeeEmYloFpnHcA"/>
+    <bendpoints xmi:id="_Z_KjoOZLEeeEmYloFpnHcA" sourceX="-168" targetY="345"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ZzI50OZLEeeEmYloFpnHcA" name="ComputerAbstractFactory" subclassedBy="_ZzOZYOZLEeeEmYloFpnHcA _ZzamoOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZQzo0OZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_ZzI50eZLEeeEmYloFpnHcA" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZzI50uZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_ZzI50-ZLEeeEmYloFpnHcA" name="createComputer">
+      <modelElement href="DesignPatterns.uml#_ZQ4hUOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_ZzI51OZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_ZzI51eZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZzI51uZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUi5UOZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_ZzI51-ZLEeeEmYloFpnHcA" name="Computer">
+          <modelElement href="DesignPatterns.uml#_ZT9qgOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZzLWEOZLEeeEmYloFpnHcA" name="ComputersFacotory">
+    <modelElement href="DesignPatterns.uml#_ZQ-n8OZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_ZzLWEeZLEeeEmYloFpnHcA" position="381.0,39.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZzLWEuZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_ZzLWE-ZLEeeEmYloFpnHcA" name="getCompter" staticOperation="true">
+      <modelElement href="DesignPatterns.uml#_ZUAGwOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_ZzLWFOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_ZzLWFeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZzLWFuZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUi5UeZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_ZzLWF-ZLEeeEmYloFpnHcA" name="Computer">
+          <modelElement href="DesignPatterns.uml#_ZT9qgOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZzLWGOZLEeeEmYloFpnHcA" name="factory">
+        <modelElement href="DesignPatterns.uml#_ZUAt0OZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_ZzLWGeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_ZzLWGuZLEeeEmYloFpnHcA" name="ComputerAbstractFactory">
+          <modelElement href="DesignPatterns.uml#_ZQzo0OZLEeeEmYloFpnHcA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZzRcsOZLEeeEmYloFpnHcA" name="PCFatory" generalizations="_ZzOZYOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZRDgcOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_ZzRcseZLEeeEmYloFpnHcA" position="387.0,181.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZzRcsuZLEeeEmYloFpnHcA" label="+"/>
+    <attributes xmi:id="_ZzRcs-ZLEeeEmYloFpnHcA" name="ram">
+      <modelElement href="DesignPatterns.uml#_ZUvtoOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_ZzRctOZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZUwUsOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_ZzRcteZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_ZzRctuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_ZzRct-ZLEeeEmYloFpnHcA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZzRcuOZLEeeEmYloFpnHcA" name="hdd">
+      <modelElement href="DesignPatterns.uml#_ZUwUseZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_ZzRcueZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZUw7wOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_ZzRcuuZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_ZzRcu-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_ZzRcvOZLEeeEmYloFpnHcA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZzRcveZLEeeEmYloFpnHcA" name="cpu">
+      <modelElement href="DesignPatterns.uml#_ZUw7weZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_ZzRcvuZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZUw7wuZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_ZzRcv-ZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_ZzRcwOZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_ZzRcweZLEeeEmYloFpnHcA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZzRcwuZLEeeEmYloFpnHcA" name="PCFatory">
+      <modelElement href="DesignPatterns.uml#_ZRHK0OZLEeeEmYloFpnHcA"/>
+      <keywords xmi:id="_ZzRcw-ZLEeeEmYloFpnHcA" keyword="create"/>
+      <visibility xmi:id="_ZzRcxOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_ZzRcxeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZzRcxuZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZRJAAOZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_ZzRcx-ZLEeeEmYloFpnHcA" name="PCFatory">
+          <modelElement href="DesignPatterns.uml#_ZRDgcOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZzRcyOZLEeeEmYloFpnHcA" name="ram">
+        <modelElement href="DesignPatterns.uml#_ZRHK0eZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_ZzRcyeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_ZzRcyuZLEeeEmYloFpnHcA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZzRcy-ZLEeeEmYloFpnHcA" name="hdd">
+        <modelElement href="DesignPatterns.uml#_ZRHx4OZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_ZzRczOZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_ZzRczeZLEeeEmYloFpnHcA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZzRczuZLEeeEmYloFpnHcA" name="cpu">
+        <modelElement href="DesignPatterns.uml#_ZRHx4eZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_ZzRcz-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_ZzRc0OZLEeeEmYloFpnHcA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZzRc0eZLEeeEmYloFpnHcA" name="createComputer">
+      <modelElement href="DesignPatterns.uml#_ZRKOIOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_ZzRc0uZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZRLcQOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZzRc0-ZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZRNRcOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_ZzRc1OZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_ZzRc1eZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZzRc1uZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUjgYOZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_ZzRc1-ZLEeeEmYloFpnHcA" name="Computer">
+          <modelElement href="DesignPatterns.uml#_ZT9qgOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZzeRAOZLEeeEmYloFpnHcA" name="ServerFactory" generalizations="_ZzamoOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZRQ70OZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_ZzeRAeZLEeeEmYloFpnHcA" position="321.0,399.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZzeRAuZLEeeEmYloFpnHcA" label="+"/>
+    <attributes xmi:id="_ZzeRA-ZLEeeEmYloFpnHcA" name="ram">
+      <modelElement href="DesignPatterns.uml#_ZUxi0OZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_ZzeRBOZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZUxi0eZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_ZzeRBeZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_ZzeRBuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_ZzeRB-ZLEeeEmYloFpnHcA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZzeRCOZLEeeEmYloFpnHcA" name="hdd">
+      <modelElement href="DesignPatterns.uml#_ZUyJ4OZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_ZzeRCeZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZUyJ4eZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_ZzeRCuZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_ZzeRC-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_ZzeRDOZLEeeEmYloFpnHcA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZzeRDeZLEeeEmYloFpnHcA" name="cpu">
+      <modelElement href="DesignPatterns.uml#_ZUyJ4uZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_ZzeRDuZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZUyw8OZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_ZzeRD-ZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_ZzeREOZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_ZzeREeZLEeeEmYloFpnHcA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZzeREuZLEeeEmYloFpnHcA" name="ServerFactory">
+      <modelElement href="DesignPatterns.uml#_ZRTYEOZLEeeEmYloFpnHcA"/>
+      <keywords xmi:id="_ZzeRE-ZLEeeEmYloFpnHcA" keyword="create"/>
+      <visibility xmi:id="_ZzeRFOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_ZzeRFeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZzeRFuZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZRUmMuZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_ZzeRF-ZLEeeEmYloFpnHcA" name="ServerFactory">
+          <modelElement href="DesignPatterns.uml#_ZRQ70OZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZzeRGOZLEeeEmYloFpnHcA" name="ram">
+        <modelElement href="DesignPatterns.uml#_ZRT_IOZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_ZzeRGeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_ZzeRGuZLEeeEmYloFpnHcA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZzeRG-ZLEeeEmYloFpnHcA" name="hdd">
+        <modelElement href="DesignPatterns.uml#_ZRT_IeZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_ZzeRHOZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_ZzeRHeZLEeeEmYloFpnHcA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZzeRHuZLEeeEmYloFpnHcA" name="cpu">
+        <modelElement href="DesignPatterns.uml#_ZRT_IuZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_ZzeRH-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_ZzeRIOZLEeeEmYloFpnHcA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZzeRIeZLEeeEmYloFpnHcA" name="createComputer">
+      <modelElement href="DesignPatterns.uml#_ZRVNQOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_ZzeRIuZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZRV0UOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZzeRI-ZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZRWbYOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_ZzeRJOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_ZzeRJeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZzeRJuZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUkugOZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_ZzeRJ-ZLEeeEmYloFpnHcA" name="Computer">
+          <modelElement href="DesignPatterns.uml#_ZT9qgOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

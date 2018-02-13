@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ZZrQ8OZLEeeEmYloFpnHcA">
+  <modelElement href="DesignPatterns.uml#_ZOyPkOZLEeeEmYloFpnHcA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aB68sOZLEeeEmYloFpnHcA" sourceAnchor="116.0,24.0" targetAnchor="100.0,104.0" target="_aClEAOZLEeeEmYloFpnHcA" source="_aCBDUOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZVG6AOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aCsYwOZLEeeEmYloFpnHcA" position="150.0,150.0"/>
+    <bendpoints xmi:id="_aLhkoOZLEeeEmYloFpnHcA" sourceX="173" targetY="79"/>
+    <stereotypes xmi:id="_aB-AAeZLEeeEmYloFpnHcA" name="Reference">
+      <modelElement href="DesignPatterns.uml#_ZVIIIOZLEeeEmYloFpnHcA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aB9Y8OZLEeeEmYloFpnHcA" text="">
+      <visualProperties xmi:id="_aLkA4OZLEeeEmYloFpnHcA" position="-43.0,-60.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aB9Y8eZLEeeEmYloFpnHcA" aggregationKind="NONE" name="">
+      <modelElement href="DesignPatterns.uml#_ZVG6AeZLEeeEmYloFpnHcA"/>
+      <visualProperties xmi:id="_aLjZ0-ZLEeeEmYloFpnHcA" position="18.22222222222217,-51.0"/>
+      <visibility xmi:id="_aB_1MOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aB_OIuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aB-AAOZLEeeEmYloFpnHcA" aggregationKind="NONE" name="120Volt" navigable="true">
+      <modelElement href="DesignPatterns.uml#_ZReXMOZLEeeEmYloFpnHcA"/>
+      <visualProperties xmi:id="_aLkn8OZLEeeEmYloFpnHcA" position="2.0,1.0"/>
+      <visibility xmi:id="_aB_1MuZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aB_1MeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aB7jwOZLEeeEmYloFpnHcA" sourceAnchor="58.0,0.0" targetAnchor="0.0,52.0" target="_aClEAOZLEeeEmYloFpnHcA" source="_aCBDUOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZVIIIeZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aCs_0OZLEeeEmYloFpnHcA" position="170.0,170.0"/>
+    <bendpoints xmi:id="_aLiLsOZLEeeEmYloFpnHcA" sourceY="-107" targetX="-131"/>
+    <stereotypes xmi:id="_aB-nEeZLEeeEmYloFpnHcA" name="Reference">
+      <modelElement href="DesignPatterns.uml#_ZVIvMOZLEeeEmYloFpnHcA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aB-AAuZLEeeEmYloFpnHcA" text="">
+      <visualProperties xmi:id="_aLl2EOZLEeeEmYloFpnHcA" position="1.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aB-AA-ZLEeeEmYloFpnHcA" aggregationKind="NONE" name="">
+      <modelElement href="DesignPatterns.uml#_ZVIIIuZLEeeEmYloFpnHcA"/>
+      <visualProperties xmi:id="_aLlPAOZLEeeEmYloFpnHcA" position="-18.0,-50.0"/>
+      <visibility xmi:id="_aB_1NOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aB_1M-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aB-nEOZLEeeEmYloFpnHcA" aggregationKind="NONE" name="12Volt" navigable="true">
+      <modelElement href="DesignPatterns.uml#_ZRe-QOZLEeeEmYloFpnHcA"/>
+      <visualProperties xmi:id="_aLl2EeZLEeeEmYloFpnHcA" position="-130.0,41.00000000000001"/>
+      <visibility xmi:id="_aCAcQOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aB_1NeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aB8K0OZLEeeEmYloFpnHcA" sourceAnchor="28.0,0.0" targetAnchor="0.0,22.0" target="_aClEAOZLEeeEmYloFpnHcA" source="_aCBDUOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZVJWQOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aCs_0eZLEeeEmYloFpnHcA" position="190.0,190.0"/>
+    <bendpoints xmi:id="_aLiywOZLEeeEmYloFpnHcA" sourceY="-137" targetX="-161"/>
+    <stereotypes xmi:id="_aB_OIeZLEeeEmYloFpnHcA" name="Reference">
+      <modelElement href="DesignPatterns.uml#_ZVJ9UOZLEeeEmYloFpnHcA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aB-nEuZLEeeEmYloFpnHcA" text="">
+      <visualProperties xmi:id="_aLnEMeZLEeeEmYloFpnHcA" position="41.0,1.0000000000000284"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aB-nE-ZLEeeEmYloFpnHcA" aggregationKind="NONE" name="">
+      <modelElement href="DesignPatterns.uml#_ZVJWQeZLEeeEmYloFpnHcA"/>
+      <visualProperties xmi:id="_aLnEMOZLEeeEmYloFpnHcA" position="-18.0,-50.0"/>
+      <visibility xmi:id="_aCAcQuZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCAcQeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aB_OIOZLEeeEmYloFpnHcA" aggregationKind="NONE" name="3Volt" navigable="true">
+      <modelElement href="DesignPatterns.uml#_ZRgMYOZLEeeEmYloFpnHcA"/>
+      <visualProperties xmi:id="_aLnrQOZLEeeEmYloFpnHcA" position="-52.5,41.000000000000014"/>
+      <visibility xmi:id="_aCAcROZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCAcQ-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aCK0UOZLEeeEmYloFpnHcA" sourceAnchor="286.0,58.0" targetAnchor="0.0,24.0" dashed="true" superClass="_aCBDUOZLEeeEmYloFpnHcA" subClass="_aCPFwOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZUJQsOZLEeeEmYloFpnHcA"/>
+    <bendpoints xmi:id="_aLiyweZLEeeEmYloFpnHcA" sourceX="27" targetX="-27" targetY="99"/>
+    <bendpoints xmi:id="_aLiywuZLEeeEmYloFpnHcA" sourceX="27" sourceY="-99" targetX="-27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aCK0UeZLEeeEmYloFpnHcA" sourceAnchor="0.0,15.0" targetAnchor="164.0,51.0" superClass="_aB35YOZLEeeEmYloFpnHcA" subClass="_aCPFwOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZULF4OZLEeeEmYloFpnHcA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aCVzcOZLEeeEmYloFpnHcA" sourceAnchor="0.0,58.0" targetAnchor="82.0,57.0" target="_aB35YOZLEeeEmYloFpnHcA" source="_aCchIOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZVJ9UeZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aCs_0uZLEeeEmYloFpnHcA" position="210.0,210.0"/>
+    <bendpoints xmi:id="_aLjZ0OZLEeeEmYloFpnHcA" sourceX="-146" targetY="223"/>
+    <stereotypes xmi:id="_aCXoo-ZLEeeEmYloFpnHcA" name="Reference">
+      <modelElement href="DesignPatterns.uml#_ZVKkYOZLEeeEmYloFpnHcA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aCXooOZLEeeEmYloFpnHcA" text="">
+      <visualProperties xmi:id="_aLoSUeZLEeeEmYloFpnHcA" position="-44.00000000000003,-120.75"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aCXooeZLEeeEmYloFpnHcA" aggregationKind="NONE" name="">
+      <modelElement href="DesignPatterns.uml#_ZVJ9UuZLEeeEmYloFpnHcA"/>
+      <visualProperties xmi:id="_aLoSUOZLEeeEmYloFpnHcA" position="-17.0,2.5"/>
+      <visibility xmi:id="_aCar8eZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCar8OZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aCXoouZLEeeEmYloFpnHcA" aggregationKind="NONE" name="sock" navigable="true">
+      <modelElement href="DesignPatterns.uml#_ZUzYAOZLEeeEmYloFpnHcA"/>
+      <visualProperties xmi:id="_aLoSUuZLEeeEmYloFpnHcA" position="1.9999999999998863,1.0000000000000568"/>
+      <visibility xmi:id="_aCar8-ZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_aCar8uZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aCWagOZLEeeEmYloFpnHcA" sourceAnchor="286.0,58.0" targetAnchor="0.0,24.0" dashed="true" superClass="_aCBDUOZLEeeEmYloFpnHcA" subClass="_aCchIOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZULs8OZLEeeEmYloFpnHcA"/>
+    <bendpoints xmi:id="_aLjZ0eZLEeeEmYloFpnHcA" sourceX="27" targetX="-27" targetY="285"/>
+    <bendpoints xmi:id="_aLjZ0uZLEeeEmYloFpnHcA" sourceX="27" sourceY="-285" targetX="-27"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aB35YOZLEeeEmYloFpnHcA" name="Socket" associationsIn="_aCVzcOZLEeeEmYloFpnHcA" subclassedBy="_aCK0UeZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZRaFwOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aB35YeZLEeeEmYloFpnHcA" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aB35YuZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_aB35Y-ZLEeeEmYloFpnHcA" name="getVolt">
+      <modelElement href="DesignPatterns.uml#_ZRbT4OZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_aB35ZOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aB35ZeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aB35ZuZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUIpoOZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aB35Z-ZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_aCBDUOZLEeeEmYloFpnHcA" name="SocketAdapter" associationsOut="_aB68sOZLEeeEmYloFpnHcA _aB7jwOZLEeeEmYloFpnHcA _aB8K0OZLEeeEmYloFpnHcA" subclassedBy="_aCK0UOZLEeeEmYloFpnHcA _aCWagOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZRdJEOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aCBDUeZLEeeEmYloFpnHcA" position="618.0,21.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aCBDUuZLEeeEmYloFpnHcA" label="+"/>
+    <attributes xmi:id="_aCBDU-ZLEeeEmYloFpnHcA" name="120Volt">
+      <modelElement href="DesignPatterns.uml#_ZReXMOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_aCBDVOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCBDVeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_aCBDVuZLEeeEmYloFpnHcA" name="Volt">
+        <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aCBDV-ZLEeeEmYloFpnHcA" name="12Volt">
+      <modelElement href="DesignPatterns.uml#_ZRe-QOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_aCBDWOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCBDWeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_aCBDWuZLEeeEmYloFpnHcA" name="Volt">
+        <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aCBDW-ZLEeeEmYloFpnHcA" name="3Volt">
+      <modelElement href="DesignPatterns.uml#_ZRgMYOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_aCBDXOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCBDXeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_aCBDXuZLEeeEmYloFpnHcA" name="Volt">
+        <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aCPFwOZLEeeEmYloFpnHcA" name="SocketClassAdapterImpl" generalizations="_aCK0UOZLEeeEmYloFpnHcA _aCK0UeZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZRiooOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aCPFweZLEeeEmYloFpnHcA" position="278.0,86.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aCPFwuZLEeeEmYloFpnHcA" label="+"/>
+    <operations xmi:id="_aCPFw-ZLEeeEmYloFpnHcA" name="get120Volt">
+      <modelElement href="DesignPatterns.uml#_ZRj2wOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aCPFxOZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZRlE4OZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aCPFxeZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZRlr8OZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aCPFxuZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCPFx-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aCPFyOZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUJ3wOZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aCPFyeZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aCPFyuZLEeeEmYloFpnHcA" name="get12Volt">
+      <modelElement href="DesignPatterns.uml#_ZRmTAOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aCPFy-ZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZRnhIOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aCPFzOZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZRoIMOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aCPFzeZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCPFzuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aCPFz-ZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUJ3weZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aCPF0OZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aCPF0eZLEeeEmYloFpnHcA" name="get3Volt">
+      <modelElement href="DesignPatterns.uml#_ZRovQOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aCPF0uZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZRpWUOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aCPF0-ZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZRp9YOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aCPF1OZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCPF1eZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aCPF1uZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUJ3wuZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aCPF1-ZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aCPF2OZLEeeEmYloFpnHcA" name="convertVolt">
+      <modelElement href="DesignPatterns.uml#_ZUKe0OZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_aCPF2eZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_aCPF2uZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aCPF2-ZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUKe0-ZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aCPF3OZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aCPF3eZLEeeEmYloFpnHcA" name="v">
+        <modelElement href="DesignPatterns.uml#_ZUKe0eZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_aCPF3uZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_aCPF3-ZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aCPF4OZLEeeEmYloFpnHcA" name="i">
+        <modelElement href="DesignPatterns.uml#_ZUKe0uZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_aCPF4eZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_aCPF4uZLEeeEmYloFpnHcA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aCchIOZLEeeEmYloFpnHcA" name="SocketObjectAdapterImpl" associationsOut="_aCVzcOZLEeeEmYloFpnHcA" generalizations="_aCWagOZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZRu14OZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aCchIeZLEeeEmYloFpnHcA" position="278.0,272.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aCchIuZLEeeEmYloFpnHcA" label="+"/>
+    <attributes xmi:id="_aCchI-ZLEeeEmYloFpnHcA" defaultValue="new Socket()" name="sock">
+      <modelElement href="DesignPatterns.uml#_ZUzYAOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aCchJOZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZUz_EOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aCchJeZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_aCchJuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_aCchJ-ZLEeeEmYloFpnHcA" name="Socket">
+        <modelElement href="DesignPatterns.uml#_ZRaFwOZLEeeEmYloFpnHcA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aCchKOZLEeeEmYloFpnHcA" name="get120Volt">
+      <modelElement href="DesignPatterns.uml#_ZRwEAOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aCchKeZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZRwrEOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aCchKuZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZRxSIOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aCchK-ZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCchLOZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aCchLeZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUMUAOZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aCchLuZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aCchL-ZLEeeEmYloFpnHcA" name="get12Volt">
+      <modelElement href="DesignPatterns.uml#_ZRx5MOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aCchMOZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZRygQOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aCchMeZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZRzHUOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aCchMuZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCchM-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aCchNOZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUMUAeZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aCchNeZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aCchNuZLEeeEmYloFpnHcA" name="get3Volt">
+      <modelElement href="DesignPatterns.uml#_ZRzuYeZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aCchN-ZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZR0VcOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aCchOOZLEeeEmYloFpnHcA" name="Annotations">
+        <modelElement href="DesignPatterns.uml#_ZR08gOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aCchOeZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aCchOuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aCchO-ZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUMUAuZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aCchPOZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aCchPeZLEeeEmYloFpnHcA" name="convertVolt">
+      <modelElement href="DesignPatterns.uml#_ZUM7EOZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_aCchPuZLEeeEmYloFpnHcA" label="-"/>
+      <cardinality xmi:id="_aCchP-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aCdIMOZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZUM7E-ZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aCdIMeZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aCdIMuZLEeeEmYloFpnHcA" name="v">
+        <modelElement href="DesignPatterns.uml#_ZUM7EeZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_aCdIM-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_aCdINOZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aCdINeZLEeeEmYloFpnHcA" name="i">
+        <modelElement href="DesignPatterns.uml#_ZUM7EuZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_aCdINuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_aCdIN-ZLEeeEmYloFpnHcA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aClEAOZLEeeEmYloFpnHcA" name="Volt" associationsIn="_aB68sOZLEeeEmYloFpnHcA _aB7jwOZLEeeEmYloFpnHcA _aB8K0OZLEeeEmYloFpnHcA">
+    <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_aClEAeZLEeeEmYloFpnHcA" position="807.0,-138.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aClEAuZLEeeEmYloFpnHcA" label="+"/>
+    <attributes xmi:id="_aClEA-ZLEeeEmYloFpnHcA" name="volts">
+      <modelElement href="DesignPatterns.uml#_ZUz_EeZLEeeEmYloFpnHcA"/>
+      <visibility xmi:id="_aClEBOZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aClEBeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <type xmi:id="_aClEBuZLEeeEmYloFpnHcA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aClEB-ZLEeeEmYloFpnHcA" name="Volt">
+      <modelElement href="DesignPatterns.uml#_ZR7DIOZLEeeEmYloFpnHcA"/>
+      <keywords xmi:id="_aClECOZLEeeEmYloFpnHcA" keyword="create"/>
+      <visibility xmi:id="_aClECeZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aClECuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aClEC-ZLEeeEmYloFpnHcA">
+        <modelElement href="DesignPatterns.uml#_ZR7qM-ZLEeeEmYloFpnHcA"/>
+        <type xmi:id="_aClEDOZLEeeEmYloFpnHcA" name="Volt">
+          <modelElement href="DesignPatterns.uml#_ZR51AOZLEeeEmYloFpnHcA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aClEDeZLEeeEmYloFpnHcA" name="v">
+        <modelElement href="DesignPatterns.uml#_ZR7qMOZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_aClEDuZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_aClED-ZLEeeEmYloFpnHcA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aClEEOZLEeeEmYloFpnHcA" name="setVolts">
+      <modelElement href="DesignPatterns.uml#_ZR8RQOZLEeeEmYloFpnHcA"/>
+      <stereotypes xmi:id="_aClEEeZLEeeEmYloFpnHcA" name="LegacyStyledElement">
+        <modelElement href="DesignPatterns.uml#_ZR84UOZLEeeEmYloFpnHcA"/>
+      </stereotypes>
+      <visibility xmi:id="_aClEEuZLEeeEmYloFpnHcA" label="+"/>
+      <cardinality xmi:id="_aClEE-ZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aClEFOZLEeeEmYloFpnHcA" name="volts">
+        <modelElement href="DesignPatterns.uml#_ZR8RQeZLEeeEmYloFpnHcA"/>
+        <cardinality xmi:id="_aClEFeZLEeeEmYloFpnHcA" label="1" max="1" min="1"/>
+        <type xmi:id="_aClEFuZLEeeEmYloFpnHcA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

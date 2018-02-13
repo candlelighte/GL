@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_Yr3IsOZLEeeEmYloFpnHcA" name="DesignPatterns">
+    <eAnnotations xmi:id="_YsroEOZLEeeEmYloFpnHcA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_YsroEeZLEeeEmYloFpnHcA" source="codegen">
+        <details xmi:id="_YssPIOZLEeeEmYloFpnHcA" key="codegenDirectory" value="/DesignPatterns/src"/>
+        <details xmi:id="_ZZUroOZLEeeEmYloFpnHcA" key="AssociatedSourceCode" value="/DesignPatterns/src/abstractfactorypattern/pckg/ComputerAbstractFactory.java;2661093958/1;/DesignPatterns/src/abstractfactorypattern/pckg/ComputersFacotory.java;1732625919/1;/DesignPatterns/src/abstractfactorypattern/pckg/PCFatory.java;348070062/1;/DesignPatterns/src/abstractfactorypattern/pckg/ServerFactory.java;1735854798/1;/DesignPatterns/src/adapterDesign/pckg/Socket.java;2474539293/1;/DesignPatterns/src/adapterDesign/pckg/SocketAdapter.java;219470932/1;/DesignPatterns/src/adapterDesign/pckg/SocketClassAdapterImpl.java;3501676942/1;/DesignPatterns/src/adapterDesign/pckg/SocketObjectAdapterImpl.java;3242005607/1;/DesignPatterns/src/adapterDesign/pckg/Volt.java;3468280491/1;/DesignPatterns/src/bridgedesign/pckg/Color.java;1512190008/1;/DesignPatterns/src/bridgedesign/pckg/GreenColor.java;1919414198/1;/DesignPatterns/src/bridgedesign/pckg/Pentagon.java;1721471751/1;/DesignPatterns/src/bridgedesign/pckg/RedColor.java;939171249/1;/DesignPatterns/src/bridgedesign/pckg/Shape.java;2167154628/1;/DesignPatterns/src/bridgedesign/pckg/Triangle.java;3278790852/1;/DesignPatterns/src/flyweight/pckg/Line.java;117035259/1;/DesignPatterns/src/flyweight/pckg/Oval.java;1765918908/1;/DesignPatterns/src/flyweight/pckg/Shape.java;2419843332/1;/DesignPatterns/src/flyweight/pckg/ShapeFactory.java;751609558/1;/DesignPatterns/src/templatemethod/pckg/GlassHouse.java;2666393003/1;/DesignPatterns/src/templatemethod/pckg/HouseTemplate.java;1587604327/1;/DesignPatterns/src/templatemethod/pckg/WoodenHouse.java;3673969832/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_ZQ6WgOZLEeeEmYloFpnHcA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ZQ6WgeZLEeeEmYloFpnHcA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ZQ6WguZLEeeEmYloFpnHcA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ZQ69kOZLEeeEmYloFpnHcA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ZQ69keZLEeeEmYloFpnHcA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ZQ69kuZLEeeEmYloFpnHcA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ZQ69k-ZLEeeEmYloFpnHcA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ZQ69lOZLEeeEmYloFpnHcA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ZQ8LsOZLEeeEmYloFpnHcA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZNw74OZLEeeEmYloFpnHcA" name="abstractfactorypattern">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZOCosOZLEeeEmYloFpnHcA" name="pckg">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ZQzo0OZLEeeEmYloFpnHcA" name="ComputerAbstractFactory">
+          <ownedOperation xmi:id="_ZQ4hUOZLEeeEmYloFpnHcA" name="createComputer">
+            <ownedParameter xmi:id="_ZUi5UOZLEeeEmYloFpnHcA" type="_ZT9qgOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZQ-n8OZLEeeEmYloFpnHcA" name="ComputersFacotory">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU43kOZLEeeEmYloFpnHcA" name="getCompter" specification="_ZUAGwOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU43keZLEeeEmYloFpnHcA" name="factory" type="_ZQzo0OZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZU43kuZLEeeEmYloFpnHcA" type="_ZT9qgOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>return factory.createComputer();
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZUAGwOZLEeeEmYloFpnHcA" name="getCompter" isStatic="true" method="_ZU43kOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUAt0OZLEeeEmYloFpnHcA" name="factory" type="_ZQzo0OZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZUi5UeZLEeeEmYloFpnHcA" type="_ZT9qgOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZRDgcOZLEeeEmYloFpnHcA" name="PCFatory">
+          <ownedAttribute xmi:id="_ZUvtoOZLEeeEmYloFpnHcA" name="ram" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ZUwUseZLEeeEmYloFpnHcA" name="hdd" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ZUw7weZLEeeEmYloFpnHcA" name="cpu" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_ZUDKEeZLEeeEmYloFpnHcA" client="_ZRDgcOZLEeeEmYloFpnHcA" supplier="_ZQzo0OZLEeeEmYloFpnHcA" contract="_ZQzo0OZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU5eoOZLEeeEmYloFpnHcA" name="PCFatory" specification="_ZRHK0OZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU5eoeZLEeeEmYloFpnHcA" name="ram">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU5eouZLEeeEmYloFpnHcA" name="hdd">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU5eo-ZLEeeEmYloFpnHcA" name="cpu">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU5epOZLEeeEmYloFpnHcA" type="_ZRDgcOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>this.ram = ram;
+		this.hdd = hdd;
+		this.cpu = cpu;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU6FsOZLEeeEmYloFpnHcA" name="createComputer" specification="_ZRKOIOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU6FseZLEeeEmYloFpnHcA" type="_ZT9qgOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>return new PC(ram, hdd, cpu );
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZRHK0OZLEeeEmYloFpnHcA" name="PCFatory" method="_ZU5eoOZLEeeEmYloFpnHcA">
+            <eAnnotations xmi:id="_ZRIY8OZLEeeEmYloFpnHcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ZRIY8eZLEeeEmYloFpnHcA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ZRHK0eZLEeeEmYloFpnHcA" name="ram">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZRHx4OZLEeeEmYloFpnHcA" name="hdd">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZRHx4eZLEeeEmYloFpnHcA" name="cpu">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZRJAAOZLEeeEmYloFpnHcA" type="_ZRDgcOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZRKOIOZLEeeEmYloFpnHcA" name="createComputer" method="_ZU6FsOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUjgYOZLEeeEmYloFpnHcA" type="_ZT9qgOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZRQ70OZLEeeEmYloFpnHcA" name="ServerFactory">
+          <ownedAttribute xmi:id="_ZUxi0OZLEeeEmYloFpnHcA" name="ram" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ZUyJ4OZLEeeEmYloFpnHcA" name="hdd" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ZUyJ4uZLEeeEmYloFpnHcA" name="cpu" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_ZUHbgOZLEeeEmYloFpnHcA" client="_ZRQ70OZLEeeEmYloFpnHcA" supplier="_ZQzo0OZLEeeEmYloFpnHcA" contract="_ZQzo0OZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU6FsuZLEeeEmYloFpnHcA" name="ServerFactory" specification="_ZRTYEOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU6Fs-ZLEeeEmYloFpnHcA" name="ram">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU6FtOZLEeeEmYloFpnHcA" name="hdd">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU6FteZLEeeEmYloFpnHcA" name="cpu">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU6FtuZLEeeEmYloFpnHcA" type="_ZRQ70OZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>this.ram = ram;
+		this.hdd = hdd;
+		this.cpu = cpu;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU6swOZLEeeEmYloFpnHcA" name="createComputer" specification="_ZRVNQOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU6sweZLEeeEmYloFpnHcA" type="_ZT9qgOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>return new Server(ram, hdd, cpu);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZRTYEOZLEeeEmYloFpnHcA" name="ServerFactory" method="_ZU6FsuZLEeeEmYloFpnHcA">
+            <eAnnotations xmi:id="_ZRUmMOZLEeeEmYloFpnHcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ZRUmMeZLEeeEmYloFpnHcA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ZRT_IOZLEeeEmYloFpnHcA" name="ram">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZRT_IeZLEeeEmYloFpnHcA" name="hdd">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZRT_IuZLEeeEmYloFpnHcA" name="cpu">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZRUmMuZLEeeEmYloFpnHcA" type="_ZRQ70OZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZRVNQOZLEeeEmYloFpnHcA" name="createComputer" method="_ZU6swOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUkugOZLEeeEmYloFpnHcA" type="_ZT9qgOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZN9JIOZLEeeEmYloFpnHcA" name="entity">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZN9JIeZLEeeEmYloFpnHcA" name="pckg">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZT9qgOZLEeeEmYloFpnHcA" name="Computer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZUB78OZLEeeEmYloFpnHcA" name="PC"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZUFmUOZLEeeEmYloFpnHcA" name="Server"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZOxBcOZLEeeEmYloFpnHcA" name="adapterDesign">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZOyPkOZLEeeEmYloFpnHcA" name="pckg">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZRaFwOZLEeeEmYloFpnHcA" name="Socket">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU6swuZLEeeEmYloFpnHcA" name="getVolt" specification="_ZRbT4OZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU6sw-ZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>return new Volt(120);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZRbT4OZLEeeEmYloFpnHcA" name="getVolt" method="_ZU6swuZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUIpoOZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ZRdJEOZLEeeEmYloFpnHcA" name="SocketAdapter">
+          <ownedAttribute xmi:id="_ZReXMOZLEeeEmYloFpnHcA" name="120Volt" type="_ZR51AOZLEeeEmYloFpnHcA" isReadOnly="true" association="_ZVG6AOZLEeeEmYloFpnHcA"/>
+          <ownedAttribute xmi:id="_ZRe-QOZLEeeEmYloFpnHcA" name="12Volt" type="_ZR51AOZLEeeEmYloFpnHcA" isReadOnly="true" association="_ZVIIIeZLEeeEmYloFpnHcA"/>
+          <ownedAttribute xmi:id="_ZRgMYOZLEeeEmYloFpnHcA" name="3Volt" type="_ZR51AOZLEeeEmYloFpnHcA" isReadOnly="true" association="_ZVJWQOZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZRiooOZLEeeEmYloFpnHcA" name="SocketClassAdapterImpl">
+          <generalization xmi:id="_ZULF4OZLEeeEmYloFpnHcA" general="_ZRaFwOZLEeeEmYloFpnHcA"/>
+          <interfaceRealization xmi:id="_ZUJQsOZLEeeEmYloFpnHcA" client="_ZRiooOZLEeeEmYloFpnHcA" supplier="_ZRdJEOZLEeeEmYloFpnHcA" contract="_ZRdJEOZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU6sxOZLEeeEmYloFpnHcA" name="get120Volt" specification="_ZRj2wOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU6sxeZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>return getVolt();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU7T0OZLEeeEmYloFpnHcA" name="get12Volt" specification="_ZRmTAOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU7T0eZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>Volt v = getVolt();
+		return convertVolt(v, 10);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU7T0uZLEeeEmYloFpnHcA" name="get3Volt" specification="_ZRovQOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU7T0-ZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>Volt v = getVolt();
+		return convertVolt(v, 40);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU7T1OZLEeeEmYloFpnHcA" name="convertVolt" specification="_ZUKe0OZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU7T1eZLEeeEmYloFpnHcA" name="v" type="_ZR51AOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZU7T1uZLEeeEmYloFpnHcA" name="i">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU7T1-ZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>return new Volt(v.getVolts() / i);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZRj2wOZLEeeEmYloFpnHcA" name="get120Volt" method="_ZU6sxOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUJ3wOZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZRmTAOZLEeeEmYloFpnHcA" name="get12Volt" method="_ZU7T0OZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUJ3weZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZRovQOZLEeeEmYloFpnHcA" name="get3Volt" method="_ZU7T0uZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUJ3wuZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZUKe0OZLEeeEmYloFpnHcA" name="convertVolt" visibility="private" method="_ZU7T1OZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUKe0eZLEeeEmYloFpnHcA" name="v" type="_ZR51AOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZUKe0uZLEeeEmYloFpnHcA" name="i">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUKe0-ZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZRu14OZLEeeEmYloFpnHcA" name="SocketObjectAdapterImpl">
+          <ownedAttribute xmi:id="_ZUzYAOZLEeeEmYloFpnHcA" name="sock" visibility="private" type="_ZRaFwOZLEeeEmYloFpnHcA" association="_ZVJ9UeZLEeeEmYloFpnHcA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_ZUzYAeZLEeeEmYloFpnHcA" value="new Socket()"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_ZULs8OZLEeeEmYloFpnHcA" client="_ZRu14OZLEeeEmYloFpnHcA" supplier="_ZRdJEOZLEeeEmYloFpnHcA" contract="_ZRdJEOZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU764OZLEeeEmYloFpnHcA" name="get120Volt" specification="_ZRwEAOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU764eZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>return sock.getVolt();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU764uZLEeeEmYloFpnHcA" name="get12Volt" specification="_ZRx5MOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU764-ZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>Volt v = sock.getVolt();
+		return convertVolt(v, 10);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU765OZLEeeEmYloFpnHcA" name="get3Volt" specification="_ZRzuYeZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU765eZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>Volt v = sock.getVolt();
+		return convertVolt(v, 40);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU765uZLEeeEmYloFpnHcA" name="convertVolt" specification="_ZUM7EOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU765-ZLEeeEmYloFpnHcA" name="v" type="_ZR51AOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZU766OZLEeeEmYloFpnHcA" name="i">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU766eZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>return new Volt(v.getVolts() / i);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZRwEAOZLEeeEmYloFpnHcA" name="get120Volt" method="_ZU764OZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUMUAOZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZRx5MOZLEeeEmYloFpnHcA" name="get12Volt" method="_ZU764uZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUMUAeZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZRzuYeZLEeeEmYloFpnHcA" name="get3Volt" method="_ZU765OZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUMUAuZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZUM7EOZLEeeEmYloFpnHcA" name="convertVolt" visibility="private" method="_ZU765uZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUM7EeZLEeeEmYloFpnHcA" name="v" type="_ZR51AOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZUM7EuZLEeeEmYloFpnHcA" name="i">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUM7E-ZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZR51AOZLEeeEmYloFpnHcA" name="Volt">
+          <ownedAttribute xmi:id="_ZUz_EeZLEeeEmYloFpnHcA" name="volts" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU8h8OZLEeeEmYloFpnHcA" name="Volt" specification="_ZR7DIOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU8h8eZLEeeEmYloFpnHcA" name="v">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU8h8uZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>this.volts = v;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZR7DIOZLEeeEmYloFpnHcA" name="Volt" method="_ZU8h8OZLEeeEmYloFpnHcA">
+            <eAnnotations xmi:id="_ZR7qMeZLEeeEmYloFpnHcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ZR7qMuZLEeeEmYloFpnHcA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ZR7qMOZLEeeEmYloFpnHcA" name="v">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZR7qM-ZLEeeEmYloFpnHcA" type="_ZR51AOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZR8RQOZLEeeEmYloFpnHcA" name="setVolts">
+            <ownedParameter xmi:id="_ZR8RQeZLEeeEmYloFpnHcA" name="volts">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ZVG6AOZLEeeEmYloFpnHcA" name="" memberEnd="_ZVG6AeZLEeeEmYloFpnHcA _ZReXMOZLEeeEmYloFpnHcA">
+          <ownedEnd xmi:id="_ZVG6AeZLEeeEmYloFpnHcA" name="" type="_ZRdJEOZLEeeEmYloFpnHcA" association="_ZVG6AOZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ZVIIIeZLEeeEmYloFpnHcA" name="" memberEnd="_ZVIIIuZLEeeEmYloFpnHcA _ZRe-QOZLEeeEmYloFpnHcA">
+          <ownedEnd xmi:id="_ZVIIIuZLEeeEmYloFpnHcA" name="" type="_ZRdJEOZLEeeEmYloFpnHcA" association="_ZVIIIeZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ZVJWQOZLEeeEmYloFpnHcA" name="" memberEnd="_ZVJWQeZLEeeEmYloFpnHcA _ZRgMYOZLEeeEmYloFpnHcA">
+          <ownedEnd xmi:id="_ZVJWQeZLEeeEmYloFpnHcA" name="" type="_ZRdJEOZLEeeEmYloFpnHcA" association="_ZVJWQOZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ZVJ9UeZLEeeEmYloFpnHcA" name="" memberEnd="_ZVJ9UuZLEeeEmYloFpnHcA _ZUzYAOZLEeeEmYloFpnHcA">
+          <ownedEnd xmi:id="_ZVJ9UuZLEeeEmYloFpnHcA" name="" type="_ZRu14OZLEeeEmYloFpnHcA" association="_ZVJ9UeZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZPNtYOZLEeeEmYloFpnHcA" name="bridgedesign">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZPO7gOZLEeeEmYloFpnHcA" name="pckg">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ZR-GcOZLEeeEmYloFpnHcA" name="Color">
+          <ownedOperation xmi:id="_ZR-tgOZLEeeEmYloFpnHcA" name="applyColor"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZR-tgeZLEeeEmYloFpnHcA" name="GreenColor">
+          <interfaceRealization xmi:id="_ZUOJMOZLEeeEmYloFpnHcA" client="_ZR-tgeZLEeeEmYloFpnHcA" supplier="_ZR-GcOZLEeeEmYloFpnHcA" contract="_ZR-GcOZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU8h8-ZLEeeEmYloFpnHcA" name="applyColor" specification="_ZR_UkOZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>System.out.println(&quot;green.&quot;);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZR_UkOZLEeeEmYloFpnHcA" name="applyColor" method="_ZU8h8-ZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZSAisOZLEeeEmYloFpnHcA" name="Pentagon">
+          <generalization xmi:id="_ZUP-YOZLEeeEmYloFpnHcA" general="_ZSGCQOZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU9JAOZLEeeEmYloFpnHcA" name="Pentagon" specification="_ZUOwQOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU9JAeZLEeeEmYloFpnHcA" name="c" type="_ZR-GcOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZU9JAuZLEeeEmYloFpnHcA" type="_ZSAisOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>super(c);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU9JA-ZLEeeEmYloFpnHcA" name="applyColor" specification="_ZSBw0OZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>System.out.print(&quot;Pentagon filled with color &quot;);
+		color.applyColor();
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZSBw0OZLEeeEmYloFpnHcA" name="applyColor" method="_ZU9JA-ZLEeeEmYloFpnHcA"/>
+          <ownedOperation xmi:id="_ZUOwQOZLEeeEmYloFpnHcA" name="Pentagon" method="_ZU9JAOZLEeeEmYloFpnHcA">
+            <eAnnotations xmi:id="_ZUPXUOZLEeeEmYloFpnHcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ZUPXUeZLEeeEmYloFpnHcA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ZUOwQeZLEeeEmYloFpnHcA" name="c" type="_ZR-GcOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZUPXUuZLEeeEmYloFpnHcA" type="_ZSAisOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZSENEOZLEeeEmYloFpnHcA" name="RedColor">
+          <interfaceRealization xmi:id="_ZUP-YeZLEeeEmYloFpnHcA" client="_ZSENEOZLEeeEmYloFpnHcA" supplier="_ZR-GcOZLEeeEmYloFpnHcA" contract="_ZR-GcOZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU9JBOZLEeeEmYloFpnHcA" name="applyColor" specification="_ZSE0IOZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>System.out.println(&quot;red.&quot;);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZSE0IOZLEeeEmYloFpnHcA" name="applyColor" method="_ZU9JBOZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZSGCQOZLEeeEmYloFpnHcA" name="Shape" isAbstract="true">
+          <ownedAttribute xmi:id="_ZU0mIOZLEeeEmYloFpnHcA" name="color" visibility="protected" type="_ZR-GcOZLEeeEmYloFpnHcA" association="_ZVKkYeZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU9wEOZLEeeEmYloFpnHcA" name="Shape" specification="_ZURMgOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU9wEeZLEeeEmYloFpnHcA" name="c" type="_ZR-GcOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZU9wEuZLEeeEmYloFpnHcA" type="_ZSGCQOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>this.color = c;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZSHQYOZLEeeEmYloFpnHcA" name="applyColor" isAbstract="true"/>
+          <ownedOperation xmi:id="_ZURMgOZLEeeEmYloFpnHcA" name="Shape" method="_ZU9wEOZLEeeEmYloFpnHcA">
+            <eAnnotations xmi:id="_ZURMguZLEeeEmYloFpnHcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ZURMg-ZLEeeEmYloFpnHcA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ZURMgeZLEeeEmYloFpnHcA" name="c" type="_ZR-GcOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZURMhOZLEeeEmYloFpnHcA" type="_ZSGCQOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZSJFkOZLEeeEmYloFpnHcA" name="Triangle">
+          <generalization xmi:id="_ZUTBsOZLEeeEmYloFpnHcA" general="_ZSGCQOZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU9wE-ZLEeeEmYloFpnHcA" name="Triangle" specification="_ZUSaoOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU9wFOZLEeeEmYloFpnHcA" name="c" type="_ZR-GcOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZU9wFeZLEeeEmYloFpnHcA" type="_ZSJFkOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>super(c);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU9wFuZLEeeEmYloFpnHcA" name="applyColor" specification="_ZSKTsOZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>System.out.print(&quot;Triangle filled with color &quot;);
+		color.applyColor();
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZSKTsOZLEeeEmYloFpnHcA" name="applyColor" method="_ZU9wFuZLEeeEmYloFpnHcA"/>
+          <ownedOperation xmi:id="_ZUSaoOZLEeeEmYloFpnHcA" name="Triangle" method="_ZU9wE-ZLEeeEmYloFpnHcA">
+            <eAnnotations xmi:id="_ZUSaouZLEeeEmYloFpnHcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ZUSao-ZLEeeEmYloFpnHcA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ZUSaoeZLEeeEmYloFpnHcA" name="c" type="_ZR-GcOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZUSapOZLEeeEmYloFpnHcA" type="_ZSJFkOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ZVKkYeZLEeeEmYloFpnHcA" name="" memberEnd="_ZVKkYuZLEeeEmYloFpnHcA _ZU0mIOZLEeeEmYloFpnHcA">
+          <ownedEnd xmi:id="_ZVKkYuZLEeeEmYloFpnHcA" name="" type="_ZSGCQOZLEeeEmYloFpnHcA" association="_ZVKkYeZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZPgoUOZLEeeEmYloFpnHcA" name="flyweight">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZPmu8OZLEeeEmYloFpnHcA" name="pckg">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZSMv8OZLEeeEmYloFpnHcA" name="Line">
+          <interfaceRealization xmi:id="_ZUWsEOZLEeeEmYloFpnHcA" client="_ZSMv8OZLEeeEmYloFpnHcA" supplier="_ZSXIAOZLEeeEmYloFpnHcA" contract="_ZSXIAOZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU-XIOZLEeeEmYloFpnHcA" name="Line" specification="_ZSN-EOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU-XIeZLEeeEmYloFpnHcA" type="_ZSMv8OZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>System.out.println(&quot;Creating Line object&quot;);
+		// adding time delay
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU-XIuZLEeeEmYloFpnHcA" name="draw" specification="_ZUmjsOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU-XI-ZLEeeEmYloFpnHcA" name="line" type="_ZUU24eZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZU-XJOZLEeeEmYloFpnHcA" name="x1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU-XJeZLEeeEmYloFpnHcA" name="y1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU-XJuZLEeeEmYloFpnHcA" name="x2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU-XJ-ZLEeeEmYloFpnHcA" name="y2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU-XKOZLEeeEmYloFpnHcA" name="color" type="_ZUTowOZLEeeEmYloFpnHcA"/>
+            <language>java</language>
+            <body>line.setColor(color);
+		line.drawLine(x1, y1, x2, y2);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZSN-EOZLEeeEmYloFpnHcA" name="Line" method="_ZU-XIOZLEeeEmYloFpnHcA">
+            <eAnnotations xmi:id="_ZSN-EeZLEeeEmYloFpnHcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ZSN-EuZLEeeEmYloFpnHcA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ZSN-E-ZLEeeEmYloFpnHcA" type="_ZSMv8OZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZUmjsOZLEeeEmYloFpnHcA" name="draw" method="_ZU-XIuZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUmjseZLEeeEmYloFpnHcA" name="line" type="_ZUU24eZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZUnKwOZLEeeEmYloFpnHcA" name="x1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUnKweZLEeeEmYloFpnHcA" name="y1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUnKwuZLEeeEmYloFpnHcA" name="x2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUnKw-ZLEeeEmYloFpnHcA" name="y2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUnKxOZLEeeEmYloFpnHcA" name="color" type="_ZUTowOZLEeeEmYloFpnHcA"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZSRocOZLEeeEmYloFpnHcA" name="Oval">
+          <ownedAttribute xmi:id="_ZU1NMeZLEeeEmYloFpnHcA" name="fill" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_ZUYhQOZLEeeEmYloFpnHcA" client="_ZSRocOZLEeeEmYloFpnHcA" supplier="_ZSXIAOZLEeeEmYloFpnHcA" contract="_ZSXIAOZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU-XKeZLEeeEmYloFpnHcA" name="Oval" specification="_ZSS2kOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU-XKuZLEeeEmYloFpnHcA" name="f">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU-XK-ZLEeeEmYloFpnHcA" type="_ZSRocOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>this.fill = f;
+		System.out.println(&quot;Creating Oval object with fill=&quot; + f);
+		// adding time delay
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU--MOZLEeeEmYloFpnHcA" name="draw" specification="_ZUqOEOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU--MeZLEeeEmYloFpnHcA" name="circle" type="_ZUU24eZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZU--MuZLEeeEmYloFpnHcA" name="x">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU--M-ZLEeeEmYloFpnHcA" name="y">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU--NOZLEeeEmYloFpnHcA" name="width">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU--NeZLEeeEmYloFpnHcA" name="height">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZU--NuZLEeeEmYloFpnHcA" name="color" type="_ZUTowOZLEeeEmYloFpnHcA"/>
+            <language>java</language>
+            <body>circle.setColor(color);
+		circle.drawOval(x, y, width, height);
+		if (fill) {
+			circle.fillOval(x, y, width, height);
+		}
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZSS2kOZLEeeEmYloFpnHcA" name="Oval" method="_ZU-XKeZLEeeEmYloFpnHcA">
+            <eAnnotations xmi:id="_ZSTdoOZLEeeEmYloFpnHcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ZSTdoeZLEeeEmYloFpnHcA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ZSS2keZLEeeEmYloFpnHcA" name="f">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZSTdouZLEeeEmYloFpnHcA" type="_ZSRocOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZUqOEOZLEeeEmYloFpnHcA" name="draw" method="_ZU--MOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUqOEeZLEeeEmYloFpnHcA" name="circle" type="_ZUU24eZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZUqOEuZLEeeEmYloFpnHcA" name="x">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUqOE-ZLEeeEmYloFpnHcA" name="y">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUqOFOZLEeeEmYloFpnHcA" name="width">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUqOFeZLEeeEmYloFpnHcA" name="height">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUq1IOZLEeeEmYloFpnHcA" name="color" type="_ZUTowOZLEeeEmYloFpnHcA"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ZSXIAOZLEeeEmYloFpnHcA" name="Shape">
+          <ownedOperation xmi:id="_ZUsqUOZLEeeEmYloFpnHcA" name="draw">
+            <ownedParameter xmi:id="_ZUsqUeZLEeeEmYloFpnHcA" name="g" type="_ZUU24eZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZUtRYOZLEeeEmYloFpnHcA" name="x">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUtRYeZLEeeEmYloFpnHcA" name="y">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUtRYuZLEeeEmYloFpnHcA" name="width">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUtRY-ZLEeeEmYloFpnHcA" name="height">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ZUtRZOZLEeeEmYloFpnHcA" name="color" type="_ZUTowOZLEeeEmYloFpnHcA"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZSZkQOZLEeeEmYloFpnHcA" name="ShapeFactory">
+          <ownedAttribute xmi:id="_ZU10QeZLEeeEmYloFpnHcA" name="shapes" visibility="private" isLeaf="true" isStatic="true" type="_ZUbkkOZLEeeEmYloFpnHcA" isReadOnly="true" association="_ZVLygeZLEeeEmYloFpnHcA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_ZU3CYeZLEeeEmYloFpnHcA" value="new HashMap&lt;ShapeType, Shape>()"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU--N-ZLEeeEmYloFpnHcA" name="getShape" specification="_ZUdZwOZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZU--OOZLEeeEmYloFpnHcA" name="type" type="_ZScAgOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZU--OeZLEeeEmYloFpnHcA" type="_ZSXIAOZLEeeEmYloFpnHcA" direction="return"/>
+            <language>java</language>
+            <body>Shape shapeImpl = shapes.get(type);
+		if (shapeImpl == null) {
+			if (type.equals(ShapeType.OVAL_FILL)) {
+				shapeImpl = new Oval(true);
+			} else if (type.equals(ShapeType.OVAL_NOFILL)) {
+				shapeImpl = new Oval(false);
+			} else if (type.equals(ShapeType.LINE)) {
+				shapeImpl = new Line();
+			}
+			shapes.put(type, shapeImpl);
+		}
+		return shapeImpl;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZUdZwOZLEeeEmYloFpnHcA" name="getShape" isStatic="true" method="_ZU--N-ZLEeeEmYloFpnHcA">
+            <ownedParameter xmi:id="_ZUdZweZLEeeEmYloFpnHcA" name="type" type="_ZScAgOZLEeeEmYloFpnHcA"/>
+            <ownedParameter xmi:id="_ZUdZwuZLEeeEmYloFpnHcA" type="_ZSXIAOZLEeeEmYloFpnHcA" direction="return"/>
+          </ownedOperation>
+          <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_ZScAgOZLEeeEmYloFpnHcA" name="ShapeType">
+            <eAnnotations xmi:id="_ZScAgeZLEeeEmYloFpnHcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ZScAguZLEeeEmYloFpnHcA" key="static"/>
+            </eAnnotations>
+            <ownedLiteral xmi:id="_ZScnkOZLEeeEmYloFpnHcA" name="OVAL_FILL"/>
+            <ownedLiteral xmi:id="_ZScnkeZLEeeEmYloFpnHcA" name="OVAL_NOFILL"/>
+            <ownedLiteral xmi:id="_ZScnkuZLEeeEmYloFpnHcA" name="LINE"/>
+          </nestedClassifier>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ZVLygeZLEeeEmYloFpnHcA" name="" memberEnd="_ZVLyguZLEeeEmYloFpnHcA _ZU10QeZLEeeEmYloFpnHcA">
+          <ownedEnd xmi:id="_ZVLyguZLEeeEmYloFpnHcA" name="" type="_ZSZkQOZLEeeEmYloFpnHcA" association="_ZVLygeZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZPhPYOZLEeeEmYloFpnHcA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZPh2cOZLEeeEmYloFpnHcA" name="awt">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZUTowOZLEeeEmYloFpnHcA" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZUU24eZLEeeEmYloFpnHcA" name="Graphics"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZP1_gOZLEeeEmYloFpnHcA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZUbkkOZLEeeEmYloFpnHcA" name="HashMap"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZP8GIOZLEeeEmYloFpnHcA" name="templatemethod">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZP-iYOZLEeeEmYloFpnHcA" name="pckg">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZSecwOZLEeeEmYloFpnHcA" name="GlassHouse">
+          <generalization xmi:id="_ZUen4OZLEeeEmYloFpnHcA" general="_ZSiuMOZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU_lQOZLEeeEmYloFpnHcA" name="buildWalls" specification="_ZSfq4OZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>System.out.println(&quot;Building Glass Walls&quot;);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU_lQeZLEeeEmYloFpnHcA" name="buildPillars" specification="_ZSg5AeZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>System.out.println(&quot;Building Pillars with glass coating&quot;);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZSfq4OZLEeeEmYloFpnHcA" name="buildWalls" method="_ZU_lQOZLEeeEmYloFpnHcA"/>
+          <ownedOperation xmi:id="_ZSg5AeZLEeeEmYloFpnHcA" name="buildPillars" method="_ZU_lQeZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZSiuMOZLEeeEmYloFpnHcA" name="HouseTemplate" isAbstract="true">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU_lQuZLEeeEmYloFpnHcA" name="buildHouse" specification="_ZSj8UOZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>buildFoundation();
+		buildPillars();
+		buildWalls();
+		buildWindows();
+		System.out.println(&quot;House is built.&quot;);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZU_lQ-ZLEeeEmYloFpnHcA" name="buildWindows" specification="_ZSj8UeZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>System.out.println(&quot;Building Glass Windows&quot;);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZVAMUOZLEeeEmYloFpnHcA" name="buildFoundation" specification="_ZSlKcOZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>System.out.println(&quot;Building foundation with cement,iron rods and sand&quot;);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZSj8UOZLEeeEmYloFpnHcA" name="buildHouse" isLeaf="true" method="_ZU_lQuZLEeeEmYloFpnHcA"/>
+          <ownedOperation xmi:id="_ZSj8UeZLEeeEmYloFpnHcA" name="buildWindows" visibility="private" method="_ZU_lQ-ZLEeeEmYloFpnHcA"/>
+          <ownedOperation xmi:id="_ZSkjYOZLEeeEmYloFpnHcA" name="buildWalls" isAbstract="true"/>
+          <ownedOperation xmi:id="_ZSkjYeZLEeeEmYloFpnHcA" name="buildPillars" isAbstract="true"/>
+          <ownedOperation xmi:id="_ZSlKcOZLEeeEmYloFpnHcA" name="buildFoundation" visibility="private" method="_ZVAMUOZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZSlxgOZLEeeEmYloFpnHcA" name="WoodenHouse">
+          <generalization xmi:id="_ZUfO8OZLEeeEmYloFpnHcA" general="_ZSiuMOZLEeeEmYloFpnHcA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZVAMUeZLEeeEmYloFpnHcA" name="buildWalls" specification="_ZSmYkOZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>System.out.println(&quot;Building Wooden Walls&quot;);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZVAMUuZLEeeEmYloFpnHcA" name="buildPillars" specification="_ZSm_oOZLEeeEmYloFpnHcA">
+            <language>java</language>
+            <body>System.out.println(&quot;Building Pillars with Wood coating&quot;);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ZSmYkOZLEeeEmYloFpnHcA" name="buildWalls" method="_ZVAMUeZLEeeEmYloFpnHcA"/>
+          <ownedOperation xmi:id="_ZSm_oOZLEeeEmYloFpnHcA" name="buildPillars" method="_ZVAMUuZLEeeEmYloFpnHcA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_YsurYOZLEeeEmYloFpnHcA">
+      <eAnnotations xmi:id="_YsyVwOZLEeeEmYloFpnHcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_YtECkOZLEeeEmYloFpnHcA" base_Package="_Yr3IsOZLEeeEmYloFpnHcA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZRLcQOZLEeeEmYloFpnHcA" base_Element="_ZRKOIOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZRNRcOZLEeeEmYloFpnHcA" base_Element="_ZRKOIOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZRNRceZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZRV0UOZLEeeEmYloFpnHcA" base_Element="_ZRVNQOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZRWbYOZLEeeEmYloFpnHcA" base_Element="_ZRVNQOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZRWbYeZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZRlE4OZLEeeEmYloFpnHcA" base_Element="_ZRj2wOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZRlr8OZLEeeEmYloFpnHcA" base_Element="_ZRj2wOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZRlr8eZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZRnhIOZLEeeEmYloFpnHcA" base_Element="_ZRmTAOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZRoIMOZLEeeEmYloFpnHcA" base_Element="_ZRmTAOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZRoIMeZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZRpWUOZLEeeEmYloFpnHcA" base_Element="_ZRovQOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZRp9YOZLEeeEmYloFpnHcA" base_Element="_ZRovQOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZRp9YeZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZRwrEOZLEeeEmYloFpnHcA" base_Element="_ZRwEAOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZRxSIOZLEeeEmYloFpnHcA" base_Element="_ZRwEAOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZRxSIeZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZRygQOZLEeeEmYloFpnHcA" base_Element="_ZRx5MOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZRzHUOZLEeeEmYloFpnHcA" base_Element="_ZRx5MOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZRzuYOZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZR0VcOZLEeeEmYloFpnHcA" base_Element="_ZRzuYeZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZR08gOZLEeeEmYloFpnHcA" base_Element="_ZRzuYeZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZR08geZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZR84UOZLEeeEmYloFpnHcA" base_Element="_ZR8RQOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZSCX4OZLEeeEmYloFpnHcA" base_Element="_ZSBw0OZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZSCX4eZLEeeEmYloFpnHcA" base_Element="_ZSBw0OZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZSC-8OZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZSH3cOZLEeeEmYloFpnHcA" base_Element="_ZSHQYOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZSK6wOZLEeeEmYloFpnHcA" base_Element="_ZSKTsOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZSLh0OZLEeeEmYloFpnHcA" base_Element="_ZSKTsOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZSLh0eZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZSfq4eZLEeeEmYloFpnHcA" base_Element="_ZSfq4OZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZSgR8OZLEeeEmYloFpnHcA" base_Element="_ZSfq4OZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZSg5AOZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZShgEOZLEeeEmYloFpnHcA" base_Element="_ZSg5AeZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZSiHIOZLEeeEmYloFpnHcA" base_Element="_ZSg5AeZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZSiHIeZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZSm_oeZLEeeEmYloFpnHcA" base_Element="_ZSm_oOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZSnmsOZLEeeEmYloFpnHcA" base_Element="_ZSm_oOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZSoNwOZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_ZT-4oOZLEeeEmYloFpnHcA" base_Element="_ZT9qgOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZUDKEOZLEeeEmYloFpnHcA" base_Element="_ZUB78OZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZUG0cOZLEeeEmYloFpnHcA" base_Element="_ZUFmUOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZUU24OZLEeeEmYloFpnHcA" base_Element="_ZUTowOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZUWFAOZLEeeEmYloFpnHcA" base_Element="_ZUU24eZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZUcysOZLEeeEmYloFpnHcA" base_Element="_ZUbkkOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZUnx0OZLEeeEmYloFpnHcA" base_Element="_ZUmjsOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZUo_8OZLEeeEmYloFpnHcA" base_Element="_ZUmjsOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZUo_8eZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZUq1IeZLEeeEmYloFpnHcA" base_Element="_ZUqOEOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZUsDQOZLEeeEmYloFpnHcA" base_Element="_ZUqOEOZLEeeEmYloFpnHcA">
+    <annotations xmi:id="_ZUsDQeZLEeeEmYloFpnHcA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZUwUsOZLEeeEmYloFpnHcA" base_Element="_ZUvtoOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZUw7wOZLEeeEmYloFpnHcA" base_Element="_ZUwUseZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZUw7wuZLEeeEmYloFpnHcA" base_Element="_ZUw7weZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZUxi0eZLEeeEmYloFpnHcA" base_Element="_ZUxi0OZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZUyJ4eZLEeeEmYloFpnHcA" base_Element="_ZUyJ4OZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZUyw8OZLEeeEmYloFpnHcA" base_Element="_ZUyJ4uZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZUz_EOZLEeeEmYloFpnHcA" base_Element="_ZUzYAOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZU1NMOZLEeeEmYloFpnHcA" base_Element="_ZU0mIOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZU10QOZLEeeEmYloFpnHcA" base_Element="_ZU1NMeZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Generics xmi:id="_ZU3CYOZLEeeEmYloFpnHcA" genericsValue="ShapeType, Shape" base_Element="_ZU10QeZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZVIIIOZLEeeEmYloFpnHcA" base_Element="_ZVG6AOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZVIvMOZLEeeEmYloFpnHcA" base_Element="_ZVIIIeZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZVJ9UOZLEeeEmYloFpnHcA" base_Element="_ZVJWQOZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZVKkYOZLEeeEmYloFpnHcA" base_Element="_ZVJ9UeZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZVLygOZLEeeEmYloFpnHcA" base_Element="_ZVKkYeZLEeeEmYloFpnHcA"/>
+  <UMLLabProfile:Reference xmi:id="_ZVMZkOZLEeeEmYloFpnHcA" base_Element="_ZVLygeZLEeeEmYloFpnHcA"/>
+</xmi:XMI>

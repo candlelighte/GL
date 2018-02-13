@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ZZd1kOZLEeeEmYloFpnHcA">
+  <modelElement href="DesignPatterns.uml#_Yr3IsOZLEeeEmYloFpnHcA"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Zeb1IOZLEeeEmYloFpnHcA" name="abstractfactorypattern">
+    <modelElement href="DesignPatterns.uml#_ZNw74OZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_Zeb1IeZLEeeEmYloFpnHcA" position="50.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Zeii0OZLEeeEmYloFpnHcA" name="entity">
+    <modelElement href="DesignPatterns.uml#_ZN9JIOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_Zeii0eZLEeeEmYloFpnHcA" position="313.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Zejw8OZLEeeEmYloFpnHcA" name="adapterDesign">
+    <modelElement href="DesignPatterns.uml#_ZOxBcOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_Zejw8eZLEeeEmYloFpnHcA" position="-159.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Zek_EOZLEeeEmYloFpnHcA" name="bridgedesign">
+    <modelElement href="DesignPatterns.uml#_ZPNtYOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_Zek_EeZLEeeEmYloFpnHcA" position="471.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_ZelmIOZLEeeEmYloFpnHcA" name="flyweight">
+    <modelElement href="DesignPatterns.uml#_ZPgoUOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_ZelmIeZLEeeEmYloFpnHcA" position="-336.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Zem0QOZLEeeEmYloFpnHcA" name="java">
+    <modelElement href="DesignPatterns.uml#_ZPhPYOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_Zem0QeZLEeeEmYloFpnHcA" position="673.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_ZeoCYOZLEeeEmYloFpnHcA" name="templatemethod">
+    <modelElement href="DesignPatterns.uml#_ZP8GIOZLEeeEmYloFpnHcA"/>
+    <visualProperties xmi:id="_ZeoCYeZLEeeEmYloFpnHcA" position="-557.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
